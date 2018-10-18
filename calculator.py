@@ -6,8 +6,9 @@ if len(sys.argv) < 2:
     print("Parameter Error")
     sys.exit()
 salary = sys.argv[1]
-newSalary = 0
+#newSalary = 0
 try:
+    global newSalary
     newSalary = int(salary)
 except:
     print("Parameter Error")
