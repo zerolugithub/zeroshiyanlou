@@ -1,0 +1,12 @@
+{% block header %}
+    <h1> {{  "Display Content" }} </h1>
+{% endblock %}
+<br>
+{% block content %}
+    <div>
+    {% for c in fileContents %}
+        <p> {{ c }} </p>
+    {% endfor %}
+    </div>
+{% endblock %}
+

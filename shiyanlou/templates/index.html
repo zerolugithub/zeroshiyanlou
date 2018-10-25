@@ -1,0 +1,12 @@
+{% block header %}
+    <h1> {{  "Display Title" }} </h1>
+{% endblock %}
+<br>
+{% block content %}
+    <div>
+    {% for title in titles %}
+        <p>{{ title }}</p>
+        <br>
+    {% endfor %}
+    </div>
+{% endblock %}
