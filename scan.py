@@ -45,6 +45,6 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
             s.connect((host, port))
             s.settimeout(0.1)
             print("{} open {}".format(host,port))
-        except TimeoutError:
+        except Exception:
             print("{} closed {}".format(host, port))
-    s.close()
+ 
