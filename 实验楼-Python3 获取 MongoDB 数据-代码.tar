@@ -167,6 +167,7 @@ def get_rank(user_id):
     result = rankDict.get(user_id,"NOTFOUND")
     return result
 if __name__ == "__main__":
+    #bug
     if len(sys.argv) != 2:
         print("Parameter Error")
         sys.exit()
