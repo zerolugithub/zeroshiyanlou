@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# @Time    : 2018/10/30 17:32
 # @Author  : zero
 # @File    : scan.py
 # @Software: PyCharm
